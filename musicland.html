@@ -1,22 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="nie"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes" />
-
+  <title>Musicland</title>
+  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="includes/style.css" media="all" />
   <link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
-
-  <title>Musicland</title>
 </head>
+
 <body id="demo-page-continents">
-
-  <!--[if lt IE 9 ]><div id="ie-error">This demo page will not work correctly in your web browser!</div><![endif]-->
-
   <header class="page-header">
    <div class="wrapper">
     <h1><span>Musicland</span></h1>
@@ -24,39 +25,12 @@
     <!-- MAIN MENU -->
     <nav id="main-menu" class="main-menu-list">
       <ul>
-        <li><a href="#section-demo" class="in-nav">Demo</a></li>
-        <li><a href="#section-setup" class="in-nav">Setup &amp; settings</a></li>
-        <li>
-          <a href="#section-options" class="in-nav">Script options</a>
-          <ul class="sub-menu">
-            <li><a href="#options-defaults" class="in-nav">Defaults</a></li>
-            <li><a href="#option-visiblelist" class="in-nav">Visible list of regions</a></li>
-            <li><a href="#option-multipleclick" class="in-nav">Multiple Clicks mode</a></li>
-            <li><a href="#option-agentslist" class="in-nav">List of addresses</a></li>
-            <li><a href="#option-markers" class="in-nav">Markers over the map</a></li>
-            <li><a href="#option-formsupport" class="in-nav">Form support</a></li>
-            <li><a href="#option-navigation" class="in-nav">Navigation controls</a></li>
-            <li><a href="#option-custom-events" class="in-nav">Custom events</a></li>
-          </ul>
-        </li>
-        <li><a href="#section-requirements" class="in-nav">Requirements</a></li>
-        <li>
-          <a href="#section-customizing-css" class="in-nav">Customizing map in <abbr title="Cascading Style Sheets">CSS</abbr></a>
-          <ul class="sub-menu">
-            <li><a href="#section-editable-elements" class="in-nav">Editable elements</a></li>
-            <li><a href="#section-crop-map" class="in-nav">Cropping the map</a></li>
-            <li><a href="#section-hide-elements" class="in-nav">Hide list elements</a></li>
-          </ul>
-        </li>
-        <li><a href="#section-map-style" class="in-nav">Editing map style</a></li>
-        <li><a href="#section-troubleshooting" class="in-nav">Troubleshooting</a></li>
-        <li><a href="#section-license" class="in-nav">License</a></li>
-        <li><a href="#section-changelog" class="in-nav">Changelog</a></li>
-        <li><a href="#section-contact" class="in-nav">Support &amp; contact</a></li>
+        <li><a href="index.html" class="in-nav">HOME</a></li>
+        <li><a href="about.html" class="in-nav">ABOUT</a></li>
+        <li><a href="musicland.html" class="in-nav">MUSICLAND</a></li>
       </ul>
     </nav>
     <!-- END OF THE MAIN MENU -->
-
    </div><!-- END .wrapper -->
   </header>
 
@@ -80,6 +54,7 @@
  </ul>
 </div>
 <!-- END OF THE CSSMap - Continents -->
+
         <div id="demo-form-fields" class="demo-form-fields">
           <ul>
             <li><label for="demo-select">Select dropdown</label><div class="select-field"><select id="demo-select" name="demo-select" class="hidden-field"><option value="0">-- Select location</option></select></div></li>
@@ -96,6 +71,7 @@
   <li id="south-america"><h3>South America</h3><p>Some info about South America, or list of addresses, or anything else you want to display here.</p><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum.</p>  </li>
  </ul>
 </div>
+
 <div id="demo-markers">
  <ul class="cssmap-pins">
   <li class="cssmap-pin" data-cssmap-coords="425,320">
@@ -130,39 +106,16 @@
               <li class="inline-label">
                 <label for="map-set-size">Size (map width)</label>
                 <div class="select-field">
-                 <select id="map-set-size" name="map-set-size">
-                  <option value="1450" selected>1450 px</option>
-                 </select>
+                <select id="map-set-size" name="map-set-size">
+                  <option selected>1450 px</option>
+                </select>
                 </div>
               </li>
             </ul>
           </fieldset>
-
         </form>
-
-
       </div>
       <!-- END OF THE MAP SETTINGS -->
-
-
-
-    <!-- SECTION CONTACT -->
-    <section id="section-contact" class="wrapper">
-     <hr />
-      <h2>Support &amp; contact</h2>
-      <div class="column one_half">
-        <p>If you have any questions regarding setup, licensing, payments, or would like to order a custom map of any region, don't hesitate to write.</p>
-        <p>But, if your setup doesn't work, check out the <a href="#section-troubleshooting" class="in-nav">"Troubleshooting" section</a> once again and&#47;or visit the <a href="https://cssmapsplugin.com/faq">CSSMap FAQ page</a> before you ask for help.</p>
-      </div>
-      <div class="column one_half last_column">
-        <ul class="contact-icons">
-          <li><a href="https://cssmapsplugin.com/contact" rel="external" class="icons icon-email"><span class="hide-email">support&#64;</span></a></li>
-          <li><a href="https://twitter.com/cssmapplugin" rel="external" class="icons icon-twitter">&#64;CSSMapplugin</a></li>
-          <li><a href="https://www.facebook.com/cssmap" rel="external" class="icons icon-facebook">facebook.com/CSSMap</a></li>
-        </ul>
-      </div>
-    </section>
-    <!-- END OF THE SECTION CONTACT -->
 
   </article>
 
@@ -172,15 +125,9 @@
     <!-- SCRIPT META -->
     <section id="script-meta">
      <hr />
-      <h4>CSSMap - Continents</h4>
       <ul>
         <li>version: 5.5.4 - September 26th, 2017</li>
         <li>author: <a href="http://popardowski.pl/web" rel="external">Łukasz Popardowski</a></li>
-        <li>license: <a href="https://cssmapsplugin.com/license" rel="external">http://cssmapsplugin.com/license</a></li>
-        <li><abbr title="Frequently Asked Questions">FAQ</abbr>: <a href="https://cssmapsplugin.com/faq" rel="external">http://cssmapsplugin.com/faq</a></li>
-        <li>web: <a href="https://cssmapsplugin.com/get/continents" rel="external">http://cssmapsplugin.com/get/continents</a></li>
-        <li>email: <a href="https://cssmapsplugin.com/contact" rel="external"><span class="hide-email">support&#64;</span></a></li>
-        <li>twitter: <a href="https://twitter.com/cssmapplugin" rel="external">&#64;CSSMapplugin</a></li>
       </ul>
       <p>Copyright &#169; 2009 - 2017 <a href="https://cssmapsplugin.com" rel="external">CSSMap plugin</a></p>
     </section>
