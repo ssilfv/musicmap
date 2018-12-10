@@ -1,18 +1,23 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*HOMEPAGE*/
+.navbar {
+	background-color: silver;
+	background-color: rgba(0.5);
+}
+.mynav {
+	width: 100%;
+	justify-content: center;
+}
+
+
 .profile-pic {
 	max-width: 100%
 }
 
 .underLine-text {text-decoration: underline;
-}
-
-.navbar {
-	background-color: silver;
-	background-color: rgba(0.5);
-}
-
-.mynav {
-	width: 100%;
-	justify-content: center;
 }
 
 .fa {
@@ -40,9 +45,7 @@ background-image: url(../img/black.png);
 	margin-bottom: 10px;
 }
 
-body {
-	font-family: 'Josefin Sans', sans-serif;
-}
+
 
 .myvideo {
 	width: 75%;
