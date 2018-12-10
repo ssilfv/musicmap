@@ -1,6 +1,6 @@
 ```python
 import spotipy
-sp = spotipy.Spotify()
+sp = spotify.Spotify()
 
 results = sp.search(q='weezer', limit=20)
 for i, t in enumerate(results['tracks']['items']):
