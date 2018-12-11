@@ -4,8 +4,15 @@ body {
 
 /*NAVBAR*/
 .navbar {
-	background-color: silver;
+	background-color: grey;
 	background-color: rgba(0.5);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 5%;
+	font-size: 12px;
+	letter-spacing: 5px;
 }
 .mynav {
 	width: 100%;
@@ -53,4 +60,39 @@ body {
 .card {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+/*MUSICLAND*/
+/* Style the search field */
+form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+}
+
+form.example button:hover {
+	background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
 }
