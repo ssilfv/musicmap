@@ -12,13 +12,18 @@ html,body{
 .navbar {
 	background-color: grey;
 	background-color: rgba(0.5);
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 5%;
-	font-size: 12px;
+	padding-left: 5%;
+	font-size: 20px;
 	letter-spacing: 5px;
+}
+.nav-item{
+	color: white;
+	font-weight: bold;
 }
 .mynav {
 	width: 100%;
@@ -41,9 +46,33 @@ html,body{
   text-align: center;
 	padding: 17px;
 	border-radius: 15px;
-	width: 50%;
-	margin-top: 45%;
+	width: 500px;
+	margin-top: 100px;
 	margin-left: 30%;
+}
+.btn-primary{
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 450px;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+		   background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 /*ABOUT PAGE*/
