@@ -1,6 +1,6 @@
-from flask import Flask, render_template
-from flask import request
 import os
+
+from flask import Flask, render_template, request
 
 from chart_retriver import SpotifyTopChart
 
@@ -8,14 +8,16 @@ app = Flask(__name__)
 
 spotify = SpotifyTopChart()
 
+
 @app.route('/hello')
 def hello_world():
-   return 'Hello World'
+    return 'Hello World'
 
 
 @app.route('/')
 def main():
     return render_template('%s.html' % 'musicland')
+
 
 @app.route('/top_50_chart')
 def data():
@@ -25,6 +27,5 @@ def data():
     return render_template('%s.html' % 'musicland', top_50_chart=chart)
 
 
-
 if __name__ == '__main__':
-   app.run(port = int(os.environ.get('PORT', 33507)))
+    app.run(port=int(os.environ.get('PORT', 33507)))
