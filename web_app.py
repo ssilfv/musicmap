@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from flask import request
+import os
 
 from chart_retriver import SpotifyTopChart
 
@@ -26,4 +27,4 @@ def data():
 
 
 if __name__ == '__main__':
-   app.run()
+   app.run(port = int(os.environ.get('PORT', 33507)))
