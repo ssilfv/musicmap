@@ -1,0 +1,102 @@
+* {
+	font-family: 'Arvo', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+
+/*NAVBAR*/
+.navbar {
+	background-color: grey;
+	background-color: rgba(0.5);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 5%;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+.mynav {
+	width: 100%;
+	justify-content: center;
+}
+
+/*HOMEPAGE*/
+#homepage {
+	background-image: url(images/records.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#FFFFFF;
+}
+.title{
+	color: #000000;
+	font-weight: 400;
+	font-size: 80px;
+	background-color: rgba(255,255,255,0.9);
+  text-align: center;
+	padding: 17px;
+	border-radius: 15px;
+	width: 50%;
+	margin-top: 45%;
+	margin-left: 30%;
+}
+
+/*ABOUT PAGE*/
+.profile-pic {
+	max-width: 100%
+}
+.fa {
+	color: black !important;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.fa a:hover {
+	color: blue;
+	text-decoration: none; }
+.mycustomprogressbar {
+		background-color: grey;
+}
+.card {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*MUSICLAND*/
+/* Style the search field */
+form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+}
+
+form.example button:hover {
+	background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+}
