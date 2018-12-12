@@ -22,7 +22,7 @@ class SpotifyTopChart:
         # country = 'Sweden'
         # country = 'Norway'
         # country = 'France'
-        response = self.sp.search(f"TOP 50 {country}", type='playlist')
+        response = self.sp.search("TOP 50 {country}", type='playlist')
         top_country_playlist = response['playlists']['items'][0]
         results = self.sp.user_playlist(
             'spotify', top_country_playlist['id'], fields="tracks,next")
