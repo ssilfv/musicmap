@@ -28,8 +28,6 @@ def data():
 
 
 if __name__ == '__main__':
-    127.0.0.1 -> only my local machine
-    0.0.0.0 -> push this out t
     app.run(host='0.0.0.0',
             port=int(os.environ.get('PORT', 33507))
             )
